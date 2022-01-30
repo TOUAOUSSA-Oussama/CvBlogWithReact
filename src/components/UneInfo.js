@@ -5,6 +5,7 @@ class UneInfo extends Component {
         return (
             <div>
                 <h3> Projet : {this.props.name.name}</h3>
+                <p>Language : {this.props.name.language}</p>
                 <a href={this.props.name.html_url}>Cliquer ici</a>
             </div>
         );
