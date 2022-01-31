@@ -19,7 +19,7 @@ import Logo from '../../static/logo-2.png';
 
 const Navbar = () => {
     const [click, setClick] = useState(false);
-    const [button, setButton] = useState(true);
+    const [button, setButton] = useState(true);    
 
     const handleClick = () => setClick(!click);
 
@@ -43,7 +43,7 @@ const Navbar = () => {
                 {/* Logo + icone */}
                 <NavLogo to="/"> 
                     <img src={Logo} width="80"/>
-                </NavLogo>tttytnbtt 
+                </NavLogo> 
                 {/* Les trois lignes qui apparaitre lorsqu'on reduit la page (pour les telephones par exemple) */}
                 <MobileIcon onClick={handleClick}>
                     {/* si le menu est cliquer => la component FaTimes */}
