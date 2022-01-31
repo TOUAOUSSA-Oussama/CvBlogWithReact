@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { GlobaleStyle } from './GloableStyle';
 import Navbar from "./Navbar/Navbar";
 import Acceuil from './pages/Acceuil';
+import Footer from './Footer/Footer'
+
 const App = () => {
     return (
         <div>
@@ -16,7 +18,12 @@ const App = () => {
                 <Routes>
                     <Route path='/' exact  element={<Acceuil/>} />
                 </Routes> 
+
+                {/* Afficher la Component Footer */}
+                <Footer />
             </Router>
+
+
             <h1>La partie du CV concernant mon Github :</h1>
             <GitHub />
             <h1> La partie du CV pour envoyer un commentaire (Get in touch) :</h1>

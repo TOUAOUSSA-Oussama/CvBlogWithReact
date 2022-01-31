@@ -69,6 +69,7 @@ align-items: center;
 list-style: none;
 text-align: center;
 
+
 @media screen and (max-width: 960px) {
     display: flex;
     flex-direction: column;
@@ -112,7 +113,7 @@ export const NavLinks = styled(Link)`
     
     &:hover {
         color: #4b59f7;
-        transition: all 0.3s ease;
+        transition: all 0.5s ease;
     }
 
     @media screen and (max-width: 960px) {
@@ -123,7 +124,7 @@ export const NavLinks = styled(Link)`
 
         &:hover {
             color: #4b59f7;
-            transition: all 0.3s ease;
+            transition: all 0.5s ease;
         }
     }
 `
