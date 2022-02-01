@@ -20,6 +20,7 @@ import Logo from '../../static/logo-2.png';
 const Navbar = () => {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);    
+    const closeMobileMenu = () => setClick(false);
 
     const handleClick = () => setClick(!click);
 
@@ -41,7 +42,7 @@ const Navbar = () => {
         <Nav>
             <NavbarContainer>
                 {/* Logo + icone */}
-                <NavLogo to="/"> 
+                <NavLogo to="/" onClick={closeMobileMenu}> 
                     <img src={Logo} width="80"/>
                 </NavLogo> 
                 {/* Les trois lignes qui apparaitre lorsqu'on reduit la page (pour les telephones par exemple) */}
@@ -72,10 +73,15 @@ const Navbar = () => {
                             Mes expériences 
                         </NavLinks>
                     </NavItem>
+                    <NavItem>
+                        <NavLinks to="/projets">
+                            Mes projets 
+                        </NavLinks>
+                    </NavItem>
                     {/* ajouter bouton de sign up */}
                     <NavItemBtn>
                         {button ? (
-                            <NavBtnLink to='/sign-up'>
+                            <NavBtnLink to='/contactezmoi'>
                                 <Button primary>CONTACTEZ-MOI</Button>
                             </NavBtnLink>
                         ) : (
