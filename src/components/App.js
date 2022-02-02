@@ -1,10 +1,8 @@
 import React from 'react';
-import Mail from './Mail';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import { GlobaleStyle } from './GloableStyle';
+import { GlobaleStyle} from './GloableStyle';
 import Navbar from "./Navbar/Navbar";
 import Acceuil from './pages/Acceuil/Acceuil';
-import Footer from './Footer/Footer'
 import Competences from './pages/Competences/Competences';
 import Experiences from './pages/Experiences/Experiences';
 import Formations from './pages/Formations/Formations';
@@ -27,12 +25,7 @@ const App = () => {
                     <Route path='/projets' exact  element={<Projets/>} />
                     <Route path='/contactezmoi' exact  element={<ContactezMoi/>} />
                 </Routes> 
-
-                {/* Afficher la Component Footer */}
-                <Footer />
             </Router>
-            <h1> La partie du CV pour envoyer un commentaire (Get in touch) :</h1>
-            <Mail />
         </>
     );
 };

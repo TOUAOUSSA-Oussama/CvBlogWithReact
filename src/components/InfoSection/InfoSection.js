@@ -43,7 +43,7 @@ const InfoSection = ({
     alt,
     imgBulb}) => {
     // pour modifier le mode
-    const [NightMode, setNightMode] = useState(true)
+    const [NightMode, setNightMode] = useState(false)
 
     const handleNightMode = () => {
         setNightMode(!NightMode)

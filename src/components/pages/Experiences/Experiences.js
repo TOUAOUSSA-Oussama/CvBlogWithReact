@@ -1,13 +1,15 @@
 import React from 'react';
-import {ExperienceContenu} from './Data';
+import {ExperienceContenuOne, ExperienceContenuTwo, ExperienceContenuThree, ExperienceContenuFor, ExperienceContenuFive} from './Data';
 import InfoSection from '../../InfoSection/InfoSection';
 
 const Experiences = () => {
     return (
         <>
-            <InfoSection {...ExperienceContenu} />
-            <InfoSection {...ExperienceContenu} />
-            <InfoSection {...ExperienceContenu} />  
+            <InfoSection {...ExperienceContenuOne} />
+            <InfoSection {...ExperienceContenuTwo} />
+            <InfoSection {...ExperienceContenuThree} />  
+            <InfoSection {...ExperienceContenuFor} />  
+            <InfoSection {...ExperienceContenuFive} />  
         </>
     );
 };

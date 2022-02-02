@@ -1,15 +1,15 @@
 import React from 'react';
-import {FormationContenu} from './Data';
+import {FormationContenuOne, FormationContenuTwo, FormationContenuThree, FormationContenuFor} from './Data';
 import InfoSection from '../../InfoSection/InfoSection';
 import Bloc from '../../Bloc/Bloc';
 
 const Formations = () => {
     return (
         <>
-            <InfoSection {...FormationContenu} />
-            <InfoSection {...FormationContenu} />
-            <InfoSection {...FormationContenu} />
-            
+            <InfoSection {...FormationContenuOne} />
+            <InfoSection {...FormationContenuTwo} />
+            <InfoSection {...FormationContenuThree} />
+            <InfoSection {...FormationContenuFor} />
         </>
     );
 };

@@ -1,13 +1,12 @@
 import React from 'react';
-import {CompetenceContenu} from './Data';
+import {CompetenceContenuOne, CompetenceContenuTwo} from './Data';
 import InfoSection from '../../InfoSection/InfoSection';
 
 const Competences = () => {
     return (
         <>
-            <InfoSection {...CompetenceContenu} />
-            <InfoSection {...CompetenceContenu} />
-            <InfoSection {...CompetenceContenu} />
+            <InfoSection {...CompetenceContenuOne} />
+            <InfoSection {...CompetenceContenuTwo} />
         </>
     );
 };
