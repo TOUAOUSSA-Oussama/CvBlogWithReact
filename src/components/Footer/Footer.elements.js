@@ -26,12 +26,12 @@ export const FooterSubscription = styled.section`
 export const FooterSubHeading = styled.p`
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 24px;
-    font-size: 24px;
+    font-size: 45px;
 `
 
 export const FooterSubText = styled.p`
     margin-bottom: 24px;
-    font-size: 20px;
+    font-size: 30px;
 `
 
 export const Form = styled.form`
@@ -52,7 +52,7 @@ export const FormInput = styled.input`
     margin: 10px;
     outline: none;
     border: none;
-    font-size: 16px;
+    font-size: 20px;
     border: 1px solid #fff;
 
     &::placeholder {
@@ -107,4 +107,24 @@ export const SocialIcons = styled.div`
 export const SocialIconLink = styled.a`
     color: #fff,
     font-size: 60px;
+`
+
+export const ImgWrapper = styled.div`
+    max-width: 555px;
+    display: flex;
+    justify-content: ${({ start }) => (start ? 'flex-start' : 'flex-end')};
+`
+export const Img = styled.img`
+    padding-right: 0;
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    max-height: 500px;
+`
+
+
+export const Ligne = styled.div`
+    display: flex;
+    justify-content: space-between;
 `

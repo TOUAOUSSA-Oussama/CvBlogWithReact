@@ -6,8 +6,8 @@ export const FormationContenuOne = {
     topLine: "2021 - 2022", 
     headline: 'École Centrale de Nantes', 
     description: 'Elève Ingénieur en 3ème année en option disciplinaire Génie informatique et en option professionnelle Finance.', 
-    img: require('../../../static/svg-4.svg').default,
-    imgStart: '',
+    img: require('../../../static/formation-1.svg').default,
+    imgStart: 'true',
     alt: 'Image'
 }
 
@@ -16,7 +16,7 @@ export const FormationContenuTwo = {
     topLine: "2020 - 2021", 
     headline: 'École Centrale de Nantes', 
     description: 'Elève Ingénieur en 2ème année en option Machine Learning, Data science/analysis and applications in signal and image processing.', 
-    img: require('../../../static/svg-4.svg').default,
+    img: require('../../../static/formation-2.svg').default,
     imgStart: '',
     alt: 'Image'
 }
@@ -26,8 +26,8 @@ export const FormationContenuThree = {
     topLine: "2019 - 2020", 
     headline: 'École Centrale de Nantes', 
     description: 'Elève Ingénieur en 1ère année tronc commun. Electifs : Energie et selec(électronique).', 
-    img: require('../../../static/svg-4.svg').default,
-    imgStart: '',
+    img: require('../../../static/formation-3.svg').default,
+    imgStart: 'true',
     alt: 'Image'
 }
 
@@ -36,7 +36,7 @@ export const FormationContenuFor = {
     topLine: "2017 - 2019", 
     headline: 'Lycée d’excellence de Benguerir, Maroc', 
     description: 'Classes préparatoires filière technologies et sciences industrielles.', 
-    img: require('../../../static/svg-4.svg').default,
+    img: require('../../../static/formation-4.svg').default,
     imgStart: '',
     alt: 'Image'
 }
